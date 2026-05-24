@@ -1,7 +1,7 @@
 # V0IDPH4GE
 Retrieve informations about a github username/email
 
-<img src="https://img.shields.io/github/v/release/xyphoscyber/v0idph4ge?style=flat-square">
+<img src="https://img.shields.io/github/v/release/xyphoscyber/V0IDPH4GE?style=flat-square">
 
 ## Features
 - Find github username from an email
