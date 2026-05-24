@@ -1,7 +1,7 @@
 # V0IDPH4GE
 Retrieve informations about a github username/email
 
-<img src="https://img.shields.io/github/v/release/xyphoscyber/v0idph4ge_osgint?style=flat-square">
+<img src="https://img.shields.io/github/v/release/xyphoscyber/v0idph4ge?style=flat-square">
 
 ## Features
 - Find github username from an email
@@ -15,7 +15,7 @@ pip3 install -r requirements.txt
 
 ## Usage
 ```bash
-$ python3 v0idph4ge_osgint.py -h
+$ python3 v0idph4ge.py -h
 
 ██╗   ██╗   ██████╗   ██╗  ██████╗   ██████╗   ██╗  ██╗  ██╗  ██╗   ██████╗   ███████╗
 ██║   ██║  ██╔═╗██║  ██║  ██╔══██╗  ██╔══██╗  ██║  ██║  ██║  ██║  ██╔════╝   ██╔════╝
@@ -26,7 +26,7 @@ $ python3 v0idph4ge_osgint.py -h
         D I G I T A L   O S I N T   F R A M E W O R K
 By xyphoscyber | https://github.com/xyphoscyber
 
-usage: v0idph4ge_osgint.py [-h] [-u USERNAME] [-e EMAIL] [--json]
+usage: v0idph4ge.py [-h] [-u USERNAME] [-e EMAIL] [--json]
 
 options:
   -h, --help            show this help message and exit
@@ -41,7 +41,7 @@ options:
 
 ### username
 ```bash
-$ ./v0idph4ge_osgint.py -u hippiiee
+$ ./v0idph4ge.py -u hippiiee
 [+] login : hippiiee
 [+] id : 41185722
 [+] avatar_url : https://avatars.githubusercontent.com/u/41185722?v=4
@@ -61,7 +61,7 @@ $ ./v0idph4ge_osgint.py -u hippiiee
 ```
 
 ```bash
-$ ./v0idph4ge_osgint.py -u hippiiee --json
+$ ./v0idph4ge.py -u hippiiee --json
 {
     "GPG_key_id": "27cbb171ff857c58",
     "GPG_keys": "https://github.com/hippiiee.gpg",
@@ -86,12 +86,12 @@ $ ./v0idph4ge_osgint.py -u hippiiee --json
 
 ### Email
 ```bash
-$ ./v0idph4ge_osgint.py -e chrisadr@gentoo.org
+$ ./v0idph4ge.py -e chrisadr@gentoo.org
 [+] username : ChrisADR
 ```
 
 ```bash
-$ ./v0idph4ge_osgint.py -e chrisadr@gentoo.org --json
+$ ./v0idph4ge.py -e chrisadr@gentoo.org --json
 {
     "username": "ChrisADR"
 }
