@@ -25,7 +25,7 @@ banner = """[0;35m
   ╚██╔╝    ╚█████╔╝  ██║  ██████╔╝  ██║       ██║  ██║       ██║  ╚██████╔╝  ███████╗
    ╚═╝      ╚════╝   ╚═╝  ╚═════╝   ╚═╝       ╚═╝  ╚═╝       ╚═╝   ╚═════╝   ╚══════╝
 [1;35m        D I G I T A L   O S I N T   F R A M E W O R K[0m
-[0;1;3mBy V0IDPH4GE[0;35m | [0;1mhttps://github.com/xyphoscyber [0m
+[0;1;3mBy Xeo Xyphos[0;35m | [0;1mhttps://github.com/xyphoscyber [0m
 """
 
 jsonOutput = {}
